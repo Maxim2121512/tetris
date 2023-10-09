@@ -1,0 +1,33 @@
+.registration {
+    font-size: medium;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.registration input[type="submit"] {
+    position: relative;
+    top: 10px;
+    width: 170px; /* Задайте желаемую ширину кнопки */
+    height: 40px; /* Задайте желаемую высоту кнопки */
+
+}
+
+.registration input[type="text"] {
+    box-sizing: border-box;
+    width: 100%;
+    height: calc(3em + 2px);
+    margin: 0 0 1em;
+    padding: 6px;
+    border: 1px solid #bababa;
+    border-radius: 3px;
+    background: #fff;
+    font-size: 16px;
+    resize: none;
+    outline: none;
+}
+
+
